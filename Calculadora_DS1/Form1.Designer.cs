@@ -49,7 +49,7 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.picGato = new System.Windows.Forms.PictureBox();
-            this.tbxResultado = new System.Windows.Forms.TextBox();
+            this.lblView = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picGato)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             // 
             this.btnSomar.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnSomar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSomar.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSomar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.ForeColor = System.Drawing.Color.Tomato;
             this.btnSomar.Location = new System.Drawing.Point(610, 103);
             this.btnSomar.Name = "btnSomar";
@@ -71,7 +71,7 @@
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnSubtrair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubtrair.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubtrair.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.ForeColor = System.Drawing.Color.Tomato;
             this.btnSubtrair.Location = new System.Drawing.Point(610, 163);
             this.btnSubtrair.Name = "btnSubtrair";
@@ -85,7 +85,7 @@
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMultiplicar.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiplicar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.ForeColor = System.Drawing.Color.Tomato;
             this.btnMultiplicar.Location = new System.Drawing.Point(610, 226);
             this.btnMultiplicar.Name = "btnMultiplicar";
@@ -99,7 +99,7 @@
             // 
             this.btnDividir.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDividir.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDividir.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDividir.ForeColor = System.Drawing.Color.Tomato;
             this.btnDividir.Location = new System.Drawing.Point(610, 288);
             this.btnDividir.Name = "btnDividir";
@@ -113,7 +113,7 @@
             // 
             this.btnIgual.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIgual.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIgual.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.ForeColor = System.Drawing.Color.Tomato;
             this.btnIgual.Location = new System.Drawing.Point(543, 288);
             this.btnIgual.Name = "btnIgual";
@@ -127,7 +127,7 @@
             // 
             this.btn9.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn9.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.Tomato;
             this.btn9.Location = new System.Drawing.Point(543, 103);
             this.btn9.Name = "btn9";
@@ -141,7 +141,7 @@
             // 
             this.btn8.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Tomato;
             this.btn8.Location = new System.Drawing.Point(476, 103);
             this.btn8.Name = "btn8";
@@ -155,7 +155,7 @@
             // 
             this.btn7.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn7.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Tomato;
             this.btn7.Location = new System.Drawing.Point(408, 103);
             this.btn7.Name = "btn7";
@@ -169,7 +169,7 @@
             // 
             this.btn4.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Tomato;
             this.btn4.Location = new System.Drawing.Point(408, 163);
             this.btn4.Name = "btn4";
@@ -183,7 +183,7 @@
             // 
             this.btn5.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Tomato;
             this.btn5.Location = new System.Drawing.Point(476, 163);
             this.btn5.Name = "btn5";
@@ -197,7 +197,7 @@
             // 
             this.btn6.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn6.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Tomato;
             this.btn6.Location = new System.Drawing.Point(543, 163);
             this.btn6.Name = "btn6";
@@ -211,7 +211,7 @@
             // 
             this.btn1.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Tomato;
             this.btn1.Location = new System.Drawing.Point(408, 226);
             this.btn1.Name = "btn1";
@@ -225,7 +225,7 @@
             // 
             this.btn2.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Tomato;
             this.btn2.Location = new System.Drawing.Point(476, 226);
             this.btn2.Name = "btn2";
@@ -239,7 +239,7 @@
             // 
             this.btn3.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Tomato;
             this.btn3.Location = new System.Drawing.Point(543, 226);
             this.btn3.Name = "btn3";
@@ -253,7 +253,7 @@
             // 
             this.btn0.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn0.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Tomato;
             this.btn0.Location = new System.Drawing.Point(408, 288);
             this.btn0.Name = "btn0";
@@ -298,20 +298,27 @@
             this.picGato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picGato.ErrorImage = null;
             this.picGato.InitialImage = null;
-            this.picGato.Location = new System.Drawing.Point(105, 163);
+            this.picGato.Location = new System.Drawing.Point(105, 144);
             this.picGato.Margin = new System.Windows.Forms.Padding(0);
             this.picGato.Name = "picGato";
             this.picGato.Size = new System.Drawing.Size(162, 165);
             this.picGato.TabIndex = 18;
             this.picGato.TabStop = false;
             // 
-            // tbxResultado
+            // lblView
             // 
-            this.tbxResultado.Location = new System.Drawing.Point(93, 96);
-            this.tbxResultado.MinimumSize = new System.Drawing.Size(50, 50);
-            this.tbxResultado.Name = "tbxResultado";
-            this.tbxResultado.Size = new System.Drawing.Size(193, 50);
-            this.tbxResultado.TabIndex = 16;
+            this.lblView.AutoSize = true;
+            this.lblView.BackColor = System.Drawing.Color.MistyRose;
+            this.lblView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblView.ForeColor = System.Drawing.Color.Tomato;
+            this.lblView.Location = new System.Drawing.Point(88, 95);
+            this.lblView.MinimumSize = new System.Drawing.Size(200, 0);
+            this.lblView.Name = "lblView";
+            this.lblView.Size = new System.Drawing.Size(200, 34);
+            this.lblView.TabIndex = 19;
+            this.lblView.Text = "l";
+            this.lblView.Click += new System.EventHandler(this.Form1_Load);
             // 
             // Form1
             // 
@@ -319,9 +326,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblView);
             this.Controls.Add(this.picGato);
             this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.tbxResultado);
             this.Controls.Add(this.lblTextoResultado);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btn1);
@@ -371,7 +378,7 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.PictureBox picGato;
-        private System.Windows.Forms.TextBox tbxResultado;
+        private System.Windows.Forms.Label lblView;
     }
 }
 
