@@ -49,17 +49,23 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.picGato = new System.Windows.Forms.PictureBox();
-            this.tbxResultado = new System.Windows.Forms.TextBox();
+            this.lblView = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.outroMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.simToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.picGato)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnSomar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSomar.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSomar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.ForeColor = System.Drawing.Color.Tomato;
-            this.btnSomar.Location = new System.Drawing.Point(610, 103);
+            this.btnSomar.Location = new System.Drawing.Point(617, 135);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(48, 40);
             this.btnSomar.TabIndex = 0;
@@ -71,9 +77,9 @@
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnSubtrair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubtrair.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubtrair.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.ForeColor = System.Drawing.Color.Tomato;
-            this.btnSubtrair.Location = new System.Drawing.Point(610, 163);
+            this.btnSubtrair.Location = new System.Drawing.Point(617, 195);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(48, 40);
             this.btnSubtrair.TabIndex = 1;
@@ -85,9 +91,9 @@
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMultiplicar.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiplicar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.ForeColor = System.Drawing.Color.Tomato;
-            this.btnMultiplicar.Location = new System.Drawing.Point(610, 226);
+            this.btnMultiplicar.Location = new System.Drawing.Point(617, 258);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(48, 40);
             this.btnMultiplicar.TabIndex = 2;
@@ -99,9 +105,9 @@
             // 
             this.btnDividir.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDividir.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDividir.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDividir.ForeColor = System.Drawing.Color.Tomato;
-            this.btnDividir.Location = new System.Drawing.Point(610, 288);
+            this.btnDividir.Location = new System.Drawing.Point(617, 320);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(48, 40);
             this.btnDividir.TabIndex = 3;
@@ -113,9 +119,9 @@
             // 
             this.btnIgual.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIgual.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIgual.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.ForeColor = System.Drawing.Color.Tomato;
-            this.btnIgual.Location = new System.Drawing.Point(543, 288);
+            this.btnIgual.Location = new System.Drawing.Point(550, 320);
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(48, 40);
             this.btnIgual.TabIndex = 4;
@@ -127,9 +133,9 @@
             // 
             this.btn9.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn9.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.Tomato;
-            this.btn9.Location = new System.Drawing.Point(543, 103);
+            this.btn9.Location = new System.Drawing.Point(550, 135);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(48, 40);
             this.btn9.TabIndex = 5;
@@ -141,9 +147,9 @@
             // 
             this.btn8.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Tomato;
-            this.btn8.Location = new System.Drawing.Point(476, 103);
+            this.btn8.Location = new System.Drawing.Point(483, 135);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(48, 40);
             this.btn8.TabIndex = 6;
@@ -155,9 +161,9 @@
             // 
             this.btn7.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn7.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Tomato;
-            this.btn7.Location = new System.Drawing.Point(408, 103);
+            this.btn7.Location = new System.Drawing.Point(415, 135);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(48, 40);
             this.btn7.TabIndex = 7;
@@ -169,9 +175,9 @@
             // 
             this.btn4.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Tomato;
-            this.btn4.Location = new System.Drawing.Point(408, 163);
+            this.btn4.Location = new System.Drawing.Point(415, 195);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(48, 40);
             this.btn4.TabIndex = 10;
@@ -183,9 +189,9 @@
             // 
             this.btn5.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Tomato;
-            this.btn5.Location = new System.Drawing.Point(476, 163);
+            this.btn5.Location = new System.Drawing.Point(483, 195);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(48, 40);
             this.btn5.TabIndex = 9;
@@ -197,9 +203,9 @@
             // 
             this.btn6.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn6.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Tomato;
-            this.btn6.Location = new System.Drawing.Point(543, 163);
+            this.btn6.Location = new System.Drawing.Point(550, 195);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(48, 40);
             this.btn6.TabIndex = 8;
@@ -211,9 +217,9 @@
             // 
             this.btn1.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Tomato;
-            this.btn1.Location = new System.Drawing.Point(408, 226);
+            this.btn1.Location = new System.Drawing.Point(415, 258);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(48, 40);
             this.btn1.TabIndex = 13;
@@ -225,9 +231,9 @@
             // 
             this.btn2.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Tomato;
-            this.btn2.Location = new System.Drawing.Point(476, 226);
+            this.btn2.Location = new System.Drawing.Point(483, 258);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(48, 40);
             this.btn2.TabIndex = 12;
@@ -239,9 +245,9 @@
             // 
             this.btn3.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Tomato;
-            this.btn3.Location = new System.Drawing.Point(543, 226);
+            this.btn3.Location = new System.Drawing.Point(550, 258);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(48, 40);
             this.btn3.TabIndex = 11;
@@ -253,9 +259,9 @@
             // 
             this.btn0.BackColor = System.Drawing.Color.PapayaWhip;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn0.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Tomato;
-            this.btn0.Location = new System.Drawing.Point(408, 288);
+            this.btn0.Location = new System.Drawing.Point(415, 320);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(116, 40);
             this.btn0.TabIndex = 14;
@@ -267,7 +273,7 @@
             // 
             this.lblTextoResultado.AutoSize = true;
             this.lblTextoResultado.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextoResultado.Location = new System.Drawing.Point(117, 50);
+            this.lblTextoResultado.Location = new System.Drawing.Point(120, 106);
             this.lblTextoResultado.Name = "lblTextoResultado";
             this.lblTextoResultado.Size = new System.Drawing.Size(154, 35);
             this.lblTextoResultado.TabIndex = 15;
@@ -278,7 +284,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.White;
             this.lblResultado.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(99, 103);
+            this.lblResultado.Location = new System.Drawing.Point(106, 163);
             this.lblResultado.MaximumSize = new System.Drawing.Size(200, 40);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 35);
@@ -298,20 +304,71 @@
             this.picGato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picGato.ErrorImage = null;
             this.picGato.InitialImage = null;
-            this.picGato.Location = new System.Drawing.Point(105, 163);
+            this.picGato.Location = new System.Drawing.Point(112, 204);
             this.picGato.Margin = new System.Windows.Forms.Padding(0);
             this.picGato.Name = "picGato";
             this.picGato.Size = new System.Drawing.Size(162, 165);
             this.picGato.TabIndex = 18;
             this.picGato.TabStop = false;
             // 
-            // tbxResultado
+            // lblView
             // 
-            this.tbxResultado.Location = new System.Drawing.Point(93, 96);
-            this.tbxResultado.MinimumSize = new System.Drawing.Size(50, 50);
-            this.tbxResultado.Name = "tbxResultado";
-            this.tbxResultado.Size = new System.Drawing.Size(193, 50);
-            this.tbxResultado.TabIndex = 16;
+            this.lblView.AutoSize = true;
+            this.lblView.BackColor = System.Drawing.Color.MistyRose;
+            this.lblView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblView.ForeColor = System.Drawing.Color.Tomato;
+            this.lblView.Location = new System.Drawing.Point(91, 151);
+            this.lblView.MinimumSize = new System.Drawing.Size(200, 2);
+            this.lblView.Name = "lblView";
+            this.lblView.Size = new System.Drawing.Size(200, 34);
+            this.lblView.TabIndex = 19;
+            this.lblView.Text = "l";
+            this.lblView.Click += new System.EventHandler(this.Form1_Load);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Bisque;
+            this.menuStrip1.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem,
+            this.outroMenuToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip1.Size = new System.Drawing.Size(800, 40);
+            this.menuStrip1.TabIndex = 20;
+            this.menuStrip1.Text = "menu";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.simToolStripMenuItem,
+            this.nãoToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(87, 34);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // outroMenuToolStripMenuItem
+            // 
+            this.outroMenuToolStripMenuItem.Name = "outroMenuToolStripMenuItem";
+            this.outroMenuToolStripMenuItem.Size = new System.Drawing.Size(101, 34);
+            this.outroMenuToolStripMenuItem.Text = "Menu2";
+            this.outroMenuToolStripMenuItem.Click += new System.EventHandler(this.outroMenuToolStripMenuItem_Click);
+            // 
+            // simToolStripMenuItem
+            // 
+            this.simToolStripMenuItem.Name = "simToolStripMenuItem";
+            this.simToolStripMenuItem.Size = new System.Drawing.Size(270, 38);
+            this.simToolStripMenuItem.Text = "Sim";
+            // 
+            // nãoToolStripMenuItem
+            // 
+            this.nãoToolStripMenuItem.Name = "nãoToolStripMenuItem";
+            this.nãoToolStripMenuItem.Size = new System.Drawing.Size(270, 38);
+            this.nãoToolStripMenuItem.Text = "Não";
             // 
             // Form1
             // 
@@ -319,9 +376,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblView);
             this.Controls.Add(this.picGato);
             this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.tbxResultado);
             this.Controls.Add(this.lblTextoResultado);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btn1);
@@ -338,13 +395,17 @@
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtrair);
             this.Controls.Add(this.btnSomar);
+            this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGato)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -371,7 +432,12 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.PictureBox picGato;
-        private System.Windows.Forms.TextBox tbxResultado;
+        private System.Windows.Forms.Label lblView;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem simToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem outroMenuToolStripMenuItem;
     }
 }
 

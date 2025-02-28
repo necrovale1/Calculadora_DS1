@@ -8,6 +8,7 @@ namespace Calculadora_DS1
 {
     internal static class Program
     {
+        
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
