@@ -15,6 +15,7 @@ namespace Calculadora_DS1
         public Form1()
         {
             InitializeComponent();
+            lblView.Text = "";
         }
 
         //variables
