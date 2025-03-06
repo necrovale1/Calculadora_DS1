@@ -51,9 +51,10 @@
             this.picGato = new System.Windows.Forms.PictureBox();
             this.lblView = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tspSair = new System.Windows.Forms.ToolStripMenuItem();
             this.outroMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -68,9 +69,10 @@
             this.btnSomar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSomar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.ForeColor = System.Drawing.Color.Tomato;
-            this.btnSomar.Location = new System.Drawing.Point(617, 135);
+            this.btnSomar.Location = new System.Drawing.Point(411, 88);
+            this.btnSomar.Margin = new System.Windows.Forms.Padding(2);
             this.btnSomar.Name = "btnSomar";
-            this.btnSomar.Size = new System.Drawing.Size(48, 40);
+            this.btnSomar.Size = new System.Drawing.Size(32, 26);
             this.btnSomar.TabIndex = 0;
             this.btnSomar.Text = "+";
             this.btnSomar.UseVisualStyleBackColor = false;
@@ -82,9 +84,10 @@
             this.btnSubtrair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubtrair.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.ForeColor = System.Drawing.Color.Tomato;
-            this.btnSubtrair.Location = new System.Drawing.Point(617, 195);
+            this.btnSubtrair.Location = new System.Drawing.Point(411, 127);
+            this.btnSubtrair.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(48, 40);
+            this.btnSubtrair.Size = new System.Drawing.Size(32, 26);
             this.btnSubtrair.TabIndex = 1;
             this.btnSubtrair.Text = "-";
             this.btnSubtrair.UseVisualStyleBackColor = false;
@@ -96,9 +99,10 @@
             this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiplicar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.ForeColor = System.Drawing.Color.Tomato;
-            this.btnMultiplicar.Location = new System.Drawing.Point(617, 258);
+            this.btnMultiplicar.Location = new System.Drawing.Point(411, 168);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(48, 40);
+            this.btnMultiplicar.Size = new System.Drawing.Size(32, 26);
             this.btnMultiplicar.TabIndex = 2;
             this.btnMultiplicar.Text = "*";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -110,9 +114,10 @@
             this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDividir.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDividir.ForeColor = System.Drawing.Color.Tomato;
-            this.btnDividir.Location = new System.Drawing.Point(617, 320);
+            this.btnDividir.Location = new System.Drawing.Point(411, 208);
+            this.btnDividir.Margin = new System.Windows.Forms.Padding(2);
             this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(48, 40);
+            this.btnDividir.Size = new System.Drawing.Size(32, 26);
             this.btnDividir.TabIndex = 3;
             this.btnDividir.Text = "/";
             this.btnDividir.UseVisualStyleBackColor = false;
@@ -124,9 +129,10 @@
             this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIgual.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.ForeColor = System.Drawing.Color.Tomato;
-            this.btnIgual.Location = new System.Drawing.Point(550, 320);
+            this.btnIgual.Location = new System.Drawing.Point(367, 208);
+            this.btnIgual.Margin = new System.Windows.Forms.Padding(2);
             this.btnIgual.Name = "btnIgual";
-            this.btnIgual.Size = new System.Drawing.Size(48, 40);
+            this.btnIgual.Size = new System.Drawing.Size(32, 26);
             this.btnIgual.TabIndex = 4;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = false;
@@ -138,9 +144,10 @@
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.Tomato;
-            this.btn9.Location = new System.Drawing.Point(550, 135);
+            this.btn9.Location = new System.Drawing.Point(367, 88);
+            this.btn9.Margin = new System.Windows.Forms.Padding(2);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(48, 40);
+            this.btn9.Size = new System.Drawing.Size(32, 26);
             this.btn9.TabIndex = 5;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
@@ -152,9 +159,10 @@
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Tomato;
-            this.btn8.Location = new System.Drawing.Point(483, 135);
+            this.btn8.Location = new System.Drawing.Point(322, 88);
+            this.btn8.Margin = new System.Windows.Forms.Padding(2);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(48, 40);
+            this.btn8.Size = new System.Drawing.Size(32, 26);
             this.btn8.TabIndex = 6;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
@@ -166,9 +174,10 @@
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn7.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Tomato;
-            this.btn7.Location = new System.Drawing.Point(415, 135);
+            this.btn7.Location = new System.Drawing.Point(277, 88);
+            this.btn7.Margin = new System.Windows.Forms.Padding(2);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(48, 40);
+            this.btn7.Size = new System.Drawing.Size(32, 26);
             this.btn7.TabIndex = 7;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
@@ -180,9 +189,10 @@
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Tomato;
-            this.btn4.Location = new System.Drawing.Point(415, 195);
+            this.btn4.Location = new System.Drawing.Point(277, 127);
+            this.btn4.Margin = new System.Windows.Forms.Padding(2);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(48, 40);
+            this.btn4.Size = new System.Drawing.Size(32, 26);
             this.btn4.TabIndex = 10;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
@@ -194,9 +204,10 @@
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Tomato;
-            this.btn5.Location = new System.Drawing.Point(483, 195);
+            this.btn5.Location = new System.Drawing.Point(322, 127);
+            this.btn5.Margin = new System.Windows.Forms.Padding(2);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(48, 40);
+            this.btn5.Size = new System.Drawing.Size(32, 26);
             this.btn5.TabIndex = 9;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
@@ -208,9 +219,10 @@
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Tomato;
-            this.btn6.Location = new System.Drawing.Point(550, 195);
+            this.btn6.Location = new System.Drawing.Point(367, 127);
+            this.btn6.Margin = new System.Windows.Forms.Padding(2);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(48, 40);
+            this.btn6.Size = new System.Drawing.Size(32, 26);
             this.btn6.TabIndex = 8;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
@@ -222,9 +234,10 @@
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Tomato;
-            this.btn1.Location = new System.Drawing.Point(415, 258);
+            this.btn1.Location = new System.Drawing.Point(277, 168);
+            this.btn1.Margin = new System.Windows.Forms.Padding(2);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(48, 40);
+            this.btn1.Size = new System.Drawing.Size(32, 26);
             this.btn1.TabIndex = 13;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
@@ -236,9 +249,10 @@
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Tomato;
-            this.btn2.Location = new System.Drawing.Point(483, 258);
+            this.btn2.Location = new System.Drawing.Point(322, 168);
+            this.btn2.Margin = new System.Windows.Forms.Padding(2);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(48, 40);
+            this.btn2.Size = new System.Drawing.Size(32, 26);
             this.btn2.TabIndex = 12;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
@@ -250,9 +264,10 @@
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Tomato;
-            this.btn3.Location = new System.Drawing.Point(550, 258);
+            this.btn3.Location = new System.Drawing.Point(367, 168);
+            this.btn3.Margin = new System.Windows.Forms.Padding(2);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(48, 40);
+            this.btn3.Size = new System.Drawing.Size(32, 26);
             this.btn3.TabIndex = 11;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
@@ -264,9 +279,10 @@
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Tomato;
-            this.btn0.Location = new System.Drawing.Point(415, 320);
+            this.btn0.Location = new System.Drawing.Point(277, 208);
+            this.btn0.Margin = new System.Windows.Forms.Padding(2);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(116, 40);
+            this.btn0.Size = new System.Drawing.Size(77, 26);
             this.btn0.TabIndex = 14;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
@@ -276,9 +292,10 @@
             // 
             this.lblTextoResultado.AutoSize = true;
             this.lblTextoResultado.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextoResultado.Location = new System.Drawing.Point(120, 106);
+            this.lblTextoResultado.Location = new System.Drawing.Point(80, 69);
+            this.lblTextoResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTextoResultado.Name = "lblTextoResultado";
-            this.lblTextoResultado.Size = new System.Drawing.Size(154, 35);
+            this.lblTextoResultado.Size = new System.Drawing.Size(102, 23);
             this.lblTextoResultado.TabIndex = 15;
             this.lblTextoResultado.Text = "Resultado:";
             // 
@@ -287,10 +304,11 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.White;
             this.lblResultado.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(106, 163);
-            this.lblResultado.MaximumSize = new System.Drawing.Size(200, 40);
+            this.lblResultado.Location = new System.Drawing.Point(71, 106);
+            this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblResultado.MaximumSize = new System.Drawing.Size(133, 26);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 35);
+            this.lblResultado.Size = new System.Drawing.Size(0, 23);
             this.lblResultado.TabIndex = 17;
             this.lblResultado.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -307,10 +325,10 @@
             this.picGato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picGato.ErrorImage = null;
             this.picGato.InitialImage = null;
-            this.picGato.Location = new System.Drawing.Point(112, 204);
+            this.picGato.Location = new System.Drawing.Point(75, 133);
             this.picGato.Margin = new System.Windows.Forms.Padding(0);
             this.picGato.Name = "picGato";
-            this.picGato.Size = new System.Drawing.Size(162, 165);
+            this.picGato.Size = new System.Drawing.Size(108, 107);
             this.picGato.TabIndex = 18;
             this.picGato.TabStop = false;
             // 
@@ -321,10 +339,11 @@
             this.lblView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblView.ForeColor = System.Drawing.Color.Tomato;
-            this.lblView.Location = new System.Drawing.Point(91, 151);
-            this.lblView.MinimumSize = new System.Drawing.Size(200, 2);
+            this.lblView.Location = new System.Drawing.Point(61, 98);
+            this.lblView.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblView.MinimumSize = new System.Drawing.Size(134, 2);
             this.lblView.Name = "lblView";
-            this.lblView.Size = new System.Drawing.Size(200, 34);
+            this.lblView.Size = new System.Drawing.Size(134, 26);
             this.lblView.TabIndex = 19;
             this.lblView.Text = "l";
             this.lblView.Click += new System.EventHandler(this.Form1_Load);
@@ -333,43 +352,51 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Bisque;
             this.menuStrip1.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.outroMenuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(800, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(533, 27);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menu";
-            // 
-            // simToolStripMenuItem
-            // 
-            this.simToolStripMenuItem.Name = "simToolStripMenuItem";
-            this.simToolStripMenuItem.Size = new System.Drawing.Size(270, 38);
-            this.simToolStripMenuItem.Text = "Sim";
-            // 
-            // nãoToolStripMenuItem
-            // 
-            this.nãoToolStripMenuItem.Name = "nãoToolStripMenuItem";
-            this.nãoToolStripMenuItem.Size = new System.Drawing.Size(270, 38);
-            this.nãoToolStripMenuItem.Text = "Não";
             // 
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.simToolStripMenuItem,
-            this.nãoToolStripMenuItem});
+            this.nãoToolStripMenuItem,
+            this.tspSair});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(87, 34);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(63, 25);
             this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // simToolStripMenuItem
+            // 
+            this.simToolStripMenuItem.Name = "simToolStripMenuItem";
+            this.simToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.simToolStripMenuItem.Text = "Sim";
+            // 
+            // nãoToolStripMenuItem
+            // 
+            this.nãoToolStripMenuItem.Name = "nãoToolStripMenuItem";
+            this.nãoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.nãoToolStripMenuItem.Text = "Não";
+            // 
+            // tspSair
+            // 
+            this.tspSair.Name = "tspSair";
+            this.tspSair.Size = new System.Drawing.Size(180, 26);
+            this.tspSair.Text = "Sair";
+            this.tspSair.Click += new System.EventHandler(this.tspSair_Click);
             // 
             // outroMenuToolStripMenuItem
             // 
             this.outroMenuToolStripMenuItem.Name = "outroMenuToolStripMenuItem";
-            this.outroMenuToolStripMenuItem.Size = new System.Drawing.Size(101, 34);
+            this.outroMenuToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
             this.outroMenuToolStripMenuItem.Text = "Menu2";
             this.outroMenuToolStripMenuItem.Click += new System.EventHandler(this.outroMenuToolStripMenuItem_Click);
             // 
@@ -379,13 +406,13 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton2});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 38);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 27);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(800, 33);
+            this.toolStrip1.Size = new System.Drawing.Size(533, 31);
             this.toolStrip1.TabIndex = 21;
             this.toolStrip1.Text = "toolStrip1";
-            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
+            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.ToolStrip1_ItemClicked);
             // 
             // toolStripButton2
             // 
@@ -393,15 +420,15 @@
             this.toolStripButton2.Image = global::Calculadora_DS1.Properties.Resources.gato;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton2.Size = new System.Drawing.Size(28, 28);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.lblView);
             this.Controls.Add(this.picGato);
@@ -427,8 +454,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Calculadora";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGato)).EndInit();
             this.menuStrip1.ResumeLayout(false);
@@ -469,6 +498,7 @@
         private System.Windows.Forms.ToolStripMenuItem outroMenuToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripMenuItem tspSair;
     }
 }
 
